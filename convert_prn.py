@@ -31,7 +31,7 @@ def get_params(param_file_name):
 def convert_one(filename_in):
 	param_file_name = 'fitting_params.json'
 	p = get_params(param_file_name)
-	print p
+	# print p
 	last_line = p['stop'] + 50
 	# filename_in = root + '.dat'
 	root = filename_in.split('.')[0]
